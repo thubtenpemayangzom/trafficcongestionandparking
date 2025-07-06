@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Page</title>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80'); /* Replace with any preferred image */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: #333;
+        }
+
+        nav.one {
+            background-color: rgba(255, 255, 255, 0.85);
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        nav.one a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        .contact-form {
+            background: linear-gradient(135deg, #add8e6, #ffc0cb); /* Light blue to light pink */
+            padding: 25px;
+            max-width: 500px;
+            margin: 60px auto;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .contact-title {
+            font-size: 26px;
+            font-weight: bold;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 15px;
+            border: none;
+            border-radius: 8px;
+            font-size: 14px;
+        }
+
+        input[type="email"]::placeholder,
+        textarea::placeholder {
+            color: #666;
+        }
+
+        p {
+            text-align: center;
+            font-size: 16px;
+            background-color: rgba(255, 255, 255, 0.8);
+            margin-top: 30px;
+            padding: 10px;
+            border-radius: 8px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <nav class="one">
+        <a href="thubten.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact us</a>
+        <a href="locate.html">Locate us</a>
+    </nav>
+
+    <p>Please contact us at <strong>17689857</strong>.</p>
+
+    <div class="contact-form">
+        <h3 class="contact-title">Contact Us</h3>
+        <p>Email</p>
+        <input type="email" placeholder="Your email">
+        <p>Message</p>
+        <textarea rows="5" placeholder="Your message"></textarea>
+    </div>
+</body>
+</html>

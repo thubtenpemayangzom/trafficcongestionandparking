@@ -1,0 +1,28 @@
+h5{
+    font-family: helvetica;
+    font-size: 80px;
+    color:lightblue;
+    text-align: center;
+    background-color: white;
+    font-style: italic;
+    font-weight: 200;
+}
+body{
+    background-color: lightpink;
+    background-image: url("");
+}
+/*codding is fun*/
+
+.one{
+    background-color:pink;
+    display: block;
+    padding: 15px 16px;
+    color:grey;
+    text-decoration: none;
+}
+video {
+  display: block;
+  margin-top: 10px;
+  border-radius: 6px;
+  max-width: 100%;
+}
